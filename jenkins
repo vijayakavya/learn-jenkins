@@ -1,0 +1,20 @@
+pipeline {
+ ageny any
+
+ stages {
+
+    stage('one') {
+     steps {
+      sh 'echo One'
+      }
+     }
+
+    stage('Two') {
+     steps {
+      sh 'echo Two'
+     }
+    }
+
+   }
+
+  }
